@@ -39,3 +39,6 @@ If the network is 10.10.10.1/24 then the command is
 ## 8. Using packet contents with Hex Output, write the command.
 If interace is `eth0` then the command is
 `tcpdump -X -i eth0`
+
+Reference:
+https://danielmiessler.com/study/tcpdump/
