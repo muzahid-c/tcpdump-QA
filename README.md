@@ -40,5 +40,16 @@ If the network is 10.10.10.1/24 then the command is
 If interace is `eth0` then the command is
 `tcpdump -X -i eth0`
 
+## 9. To find a specific port traffic, write the command.
+If the port is 123 then the command is
+`tcpdump port 123`
+
+## 10. Show Traffic of One Protocol command.
+If the protocol is icmp then command is
+`tcpdump icmp`
+
+## 11. Write the command showing only IP6 Traffic.
+`tcpdump ip6`
+
 ### Reference:
 https://danielmiessler.com/study/tcpdump/
