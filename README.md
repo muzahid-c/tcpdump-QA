@@ -27,7 +27,7 @@ If IP is 10.10.10.1 then command is
 `tcpdump host 10.10.10.1`
 
 ## 6. Share the filtering by Source and/or Destination?
-If souce or destination IP is 10.10.10.1 then
+If source or destination IP is 10.10.10.1 then
 `tcpdump src 10.10.10.1`
 or
 `tcpdump dst 10.10.10.1`
@@ -35,3 +35,7 @@ or
 ## 7. How to find Packets by Network, write the line.
 If the network is 10.10.10.1/24 then the command is
 `tcpdump net 10.10.10.1/24`
+
+## 8. Using packet contents with Hex Output, write the command.
+If interace is `eth0` then the command is
+`tcpdump -X -i eth0`
